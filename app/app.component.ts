@@ -19,10 +19,8 @@ import{RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 @Component({
     selector: 'my-app',
     template: 
-    `<div class="jumbotron">
-                 <router-outlet></router-outlet>
-                 </div>
-    `,
+    ` <router-outlet></router-outlet>`
+       ,
     directives: [ROUTER_DIRECTIVES]
 })
 export class AppComponent { }
