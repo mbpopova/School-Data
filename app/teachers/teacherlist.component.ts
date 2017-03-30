@@ -6,15 +6,11 @@ import {Component} from 'angular2/core';
     template: 
     `
     <ul>
-        <li>Teacher 1</li>
-        <li>Teacher 2</li>
+        <li>Teacher 1<a href = '/teachers/courses'> View Courses</a></li>
+        <li>Teacher 2<a href = '/teachers/courses'> View Courses</a></li>
+        <li>Teacher 3<a href = '/teachers/courses'> View Courses</a></li>
+        <li>Teacher 4<a href = '/teachers/courses'> View Courses</a></li>
     </ul>
-
-      <ul>
-         <li><a href = '/students'>Student Achivement Manager</a></li>
-         <li><a href = '/teachers/courses'>Teacher Courses</a></li>
-      </ul>
-
 
        `
   })

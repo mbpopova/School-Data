@@ -5,11 +5,13 @@ import {Component} from 'angular2/core';
     selector: "studentlist",
     template: 
     `
-   
-    <ul>
-      <li><a href = '/teachers'>Teacher Portal</a></li>
-      <li><a href = '/students/enrollments'>Student Enrollments</a></li>
-    </ul>
+     <ul>
+        <li>Student 1   <a href = '/students/enrollments'> View Enrollments</a></li>
+        <li>Student 2   <a href = '/students/enrollments'> View Enrollments</a></li>
+        <li>Student 3   <a href = '/students/enrollments'> View Enrollments</a></li>
+        <li>Student 4   <a href = '/students/enrollments'> View Enrollments</a></li>
+     </ul>
+    
        `
   })
 

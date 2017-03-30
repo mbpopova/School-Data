@@ -20,13 +20,11 @@ import {StudentlistComponent} from './studentlist.component';
     `
     <h1>Student Achievement Manager</h1>
 
- <ul>
-     <li>Student 1</li>
-     <li>Student 2</li>
-     </ul>
-
-     
+        <a href='/login'>Logout</a><br/>
+        <a href = '/teachers'>Teacher Portal</a><br/>
+             
     <router-outlet></router-outlet>
+      
    `,  
    
    directives: [ROUTER_DIRECTIVES]

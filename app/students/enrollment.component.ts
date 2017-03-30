@@ -7,9 +7,11 @@ import {Component}  from 'angular2/core';
     <ul>
        <li>Enrollment Item 1</li>
        <li>Enrollment Item 2</li>
-
-       <a href='/students'> Back to Students Home</a>
-    </ul>
+       <li>Enrollment Item 3</li>
+       <li>Enrollment Item 4</li>
+  </ul>
+       <a href='/students'> View Students</a>
+  
     `
 })
 export class EnrollmentComponent {

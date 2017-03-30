@@ -21,7 +21,10 @@ import {TeacherlistComponent} from './teacherlist.component';
     template: 
     `
       <h1>Teacher Portal</h1>
+      <a href="/login">Logout</a><br/>
+      <a href = '/students'>Student Achivement Manager</a>
       <router-outlet></router-outlet>
+      
       `
  ,  
    

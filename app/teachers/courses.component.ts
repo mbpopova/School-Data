@@ -10,11 +10,8 @@ import {Component}  from 'angular2/core';
        <li> Calculus</li>
        <li> Geometry</li>
     </ul>
+<a href = '/teachers'>View Teachers</a>
 
-       <ul>
-         <li><a href = '/teachers'>Teachers Home Page</a></li>
-       <li><a href = '/students'>Student Achivement Manager</a></li>
-       </ul>
     `
 })
 export class CoursesComponent {
