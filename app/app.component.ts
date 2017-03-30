@@ -18,15 +18,10 @@ import{RouteConfig, ROUTER_DIRECTIVES} from 'angular2/router';
 
 @Component({
     selector: 'my-app',
-    template: `
-    <h1> LOGIN PAGE</h1>
-    <form>
-     ID: <input type = "text" name = "ID"/>
-     PWD: <input type = "text" name = "PWD" placeholder = "Password"/>
-    <button><a href = '/login'> LOGIN</a></button>
-    </form>
-
+    template: 
+    `<div class="jumbotron">
                  <router-outlet></router-outlet>
+                 </div>
     `,
     directives: [ROUTER_DIRECTIVES]
 })
